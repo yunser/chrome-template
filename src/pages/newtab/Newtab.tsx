@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "@assets/img/logo.svg";
 import "@pages/newtab/Newtab.css";
-import "@pages/newtab/Newtab.scss";
+import "@pages/newtab/Newtab.less";
 
 const Newtab = () => {
   return (
@@ -19,7 +19,7 @@ const Newtab = () => {
         >
           Learn React!
         </a>
-        <h6>The color of this paragraph is defined using SASS.</h6>
+        <h6>The color of this paragraph is defined using LESS.</h6>
       </header>
     </div>
   );
